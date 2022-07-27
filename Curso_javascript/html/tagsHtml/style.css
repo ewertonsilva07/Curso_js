@@ -1,10 +1,40 @@
 body {
-    background-image: url("night_city.png");
-    background-size: 100%;
+    background-color: lightgray;
 }
 
-h1 {
+#h1Metadados {
     background-color: red;
     color: white;
 
+}
+
+/* Separadores*/
+
+#headerSeparadores {
+    text-align: center;
+    border: 100px solid white;
+}
+
+main {
+    height: 1050px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+section {
+    height: 250px;
+    width: 600px;
+    margin: 100px;
+    background-color: white;
+}
+
+#titulo {
+    height: 100px;
+    width: 600px;
+    margin: 100px;
+    background-color: black;
+    color: white;
 }
