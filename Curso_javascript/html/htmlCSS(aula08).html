@@ -10,13 +10,37 @@
                 margin:0;
                 padding: 0;
             }
+
+            #heading{
+                background: red;
+                display: flex;
+                justify-content: space-between;
+                
+            }
+
+            #heading .h1 {
+                padding: 15px;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+
+            #heading a {
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+            }
         </style>
     </head>
     <body>
         <header id="heading">
-            <h1>
-                <a href="#">Netflix</a>
-            </h1>
+            <div>
+                <h1 class="h1">
+                    <a href="#">Netflix</a>
+                </h1>
+                <h2 class="h1">
+                    <a href="#">Netflix</a>
+                </h2>
+            </div>
         </header>
     </body>
 </html>
