@@ -7,13 +7,18 @@
         <title>Box Model</title>
 
         <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
             .sectionOne {
                 background: deeppink;
                 background-image: url(https://image.shutterstock.com/image-photo/sunny-autumn-scene-vorderer-gosausee-600w-1064150654.jpg);
                 background-size: cover;
                 background-position: center center;
                 color: white;
-                height: 50px;
+                height: 150px;
                 width: 200px;
                 border-width: 10px;
                 border-bottom-color: red;
@@ -22,7 +27,7 @@
                 border-left-color: blueviolet;
                 border-right-color: plum;
                 padding: 15px;
-                margin: 30px;
+                margin: 20px;
             }
 
             .sectionTwo {
