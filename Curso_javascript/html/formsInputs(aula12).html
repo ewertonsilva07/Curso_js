@@ -9,18 +9,30 @@
             body {
                 font-family: sans-serif;
             }
+
+            label {
+                cursor: pointer;
+                display: block;
+            }
         </style>
     </head>
     <body>
         <form action="#" method="get" target="blank" autocomplete="off">
             <p>O meu formulário</p>
             <p>
-                <input type="text" id="nome" name="nome" placeholder="Seu nome" value="Luiz">
+                <!--<label>Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                -->
+                <label for="dev">Sou um dev</label>
+                <input type="checkbox" id="dev">
+            </p>
+            <p>
+                <input type="text">
             </p>
 
             <p>
+                <button type="reset">Reset</button>
                 <button type="submit">Enviar</button>
-                <button type="reset">Enviar</button>
             </p>
         </form>
     </body>
